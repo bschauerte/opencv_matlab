@@ -41,9 +41,14 @@
     in general; I am really not the best person to answer such questions and
     - in all honesty - I have too much other stuff to do, sorry.
 
-### 3.2 ACKNOWLEDGEMENTS
+### 3.2 LOCATIONS
 
-#### 3.2.1 INSTITUTIONS
+  [opencv_matlab@GitHub](https://github.com/bschauerte/opencv_matlab "GitHub repository, if you want to contribute")
+  [opencv_matlab@Mathworks](https://comingsoon "Mathworks File Exchange, stable version")
+
+### 3.3 ACKNOWLEDGEMENTS
+
+#### 3.3.1 INSTITUTIONS
 
   Part of this work was/is supported by the German Research Foundation (DFG)
   within the Collaborative Research Program SFB 588 "Humanoid Robots" and the
