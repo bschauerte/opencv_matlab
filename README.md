@@ -17,6 +17,7 @@
   You can compile it using cmake as follows:
 
     mkdir build
+    cd build
     ccmake ..
     make
     ./opencv_matlab_standalone path_to_some_test_image
