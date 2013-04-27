@@ -2,8 +2,25 @@
 
 ## 1. GENERAL
 
-  opencv_matlab is a simple C++ template library that provides routines 
-  to convert between Matlab's and OpenCV's primary image representatations.
+  opencv_matlab is a simple C++ template library that provides routines to
+  convert between Matlab's and OpenCV's primary image representatations.
+
+  This way it is possible to easily call OpenCV functions from C++-.mex-code
+  as well as to use C++ routines developed for Matlab in projects that
+  primarily use OpenCV. 
+
+  Naturally, converting images takes time and it's consequently not the best
+  solution for code with strong time constraints, but it's often more than
+  good enough for prototyping and/or demonstrators. And, most importantly,
+  you don't have to rewrite/reimplement code, thus saving hours of time.
+
+  I have used the code in several projects and if you want to cite something
+  (yay!), then [1] might be most appropriate.
+
+  [1] B. Schauerte, B. Kühn, K. Kroschel, R. Stiefelhagen, "Multimodal 
+      Saliency-based Attention for Object-based Scene Analysis". In Proc. 24th
+      International Conference on Intelligent Robots and Systems (IROS), 
+      IEEE/RSJ, San Francisco, CA, USA, September 25-30, 2011.
 
 ## 2. INSTALLATION
 
@@ -29,8 +46,6 @@
 ### 2.2 EXAMPLE FOR CALLING OpenCV FUNCTIONS FROM A C++-.mex FILE
 
   ...
-
-
 
 ## 3. AUTHOR INFORMATION
 
