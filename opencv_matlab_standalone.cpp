@@ -81,7 +81,6 @@ main(int argc, char* argv[])
         std::cerr << "Error: Could not load the specified image" << std::endl;
         exit(-1);
     }
-    cv::Mat foo(opencv_image.rows,opencv_image.cols,0);
     cv::Mat opencv_transformed_image(opencv_image.rows,opencv_image.cols,CV_8UC3);
 
     ////
@@ -109,5 +108,9 @@ main(int argc, char* argv[])
     cv::imshow( "opencv_transformed_image", opencv_transformed_image );
 
     waitKey(0);
+
+    delete [] matlab_image;
+    delete [] matlab_transformed_image;
+
     return 0;
 }
