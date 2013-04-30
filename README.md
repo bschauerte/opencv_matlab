@@ -15,9 +15,9 @@
   you don't have to rewrite/reimplement code, thus saving hours of time.
 
   I have used the code in several projects and if you want to cite something
-  (yay!), then [1] might be most appropriate.
+  (yay! but don't feel obliged to do so), then [1] might be most appropriate
 
-  [1] B. Schauerte, B. Kühn, K. Kroschel, R. Stiefelhagen, "Multimodal 
+  [1] B. Schauerte, B. Kuehn, K. Kroschel, R. Stiefelhagen, "Multimodal 
       Saliency-based Attention for Object-based Scene Analysis". In Proc. 24th
       International Conference on Intelligent Robots and Systems (IROS), 
       IEEE/RSJ, San Francisco, CA, USA, September 25-30, 2011.
@@ -31,7 +31,7 @@
   arbitrary code, and then converts the result to OpenCV's format for further
   operations/display.
 
-  You can compile it using cmake as follows:
+  You can compile and run it as follows:
 
     mkdir build
     cd build
@@ -53,11 +53,10 @@
     in general; I am really not the best person to answer such questions and
     - in all honesty - I have too much other stuff to do, sorry.
 
-### 3.2 LOCATIONS
+### 3.2 CODE HOSTING
 
-  [opencv_matlab@GitHub](https://github.com/bschauerte/opencv_matlab "GitHub repository, if you want to contribute")
-
-  [opencv_matlab@Mathworks](http://www.mathworks.com/matlabcentral/fileexchange/41530 "Mathworks File Exchange, stable version")
+  1. Stable/static version: [opencv_matlab@Mathworks](http://www.mathworks.com/matlabcentral/fileexchange/41530 "Mathworks File Exchange, stable version")
+  2. Development version, feel free to commit: [opencv_matlab@GitHub](https://github.com/bschauerte/opencv_matlab "GitHub repository, if you want to contribute")
 
 ### 3.3 ACKNOWLEDGEMENTS
 
