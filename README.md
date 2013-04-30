@@ -39,10 +39,6 @@
     make
     ./opencv_matlab_standalone path_to_some_test_image
 
-  *NOTE* Please do not send me e-mails regarding problems with OpenCV, etc. in
-         general; I am really not the best person to answer such questions and 
-         - in all honesty - I have too much other stuff to do, sorry.
-
 ### 2.2 EXAMPLE FOR CALLING OpenCV FUNCTIONS FROM A C++-.mex FILE
 
   ...
@@ -60,7 +56,8 @@
 ### 3.2 LOCATIONS
 
   [opencv_matlab@GitHub](https://github.com/bschauerte/opencv_matlab "GitHub repository, if you want to contribute")
-  [opencv_matlab@Mathworks](https://comingsoon "Mathworks File Exchange, stable version")
+
+  [opencv_matlab@Mathworks](http://www.mathworks.com/matlabcentral/fileexchange/41530 "Mathworks File Exchange, stable version")
 
 ### 3.3 ACKNOWLEDGEMENTS
 
