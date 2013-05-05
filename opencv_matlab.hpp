@@ -135,7 +135,7 @@ namespace om // om: opencv-matlab
     inline void
     copyMatrixToOpencv(const T* from, cv::Mat& to)
     {
-        assert(from.dims == 2); // =2 <=> 2-D image
+        assert(to.dims == 2); // =2 <=> 2-D image
 
         copyMatrixFromMatlab(from,to);
     }
