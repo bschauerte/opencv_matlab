@@ -46,7 +46,19 @@
 
 ### 3.2 EXAMPLE FOR CALLING OpenCV FUNCTIONS FROM A C++-.mex FILE
 
-  ...
+  The demo code that showcases how to invoke OpenCV functions from a C++-.mex
+  is distributed in several files:
+
+  - *build_opencv_matlab_mex.m* can be used to build the .mex file (take care
+    and set the correct include/lib pathes)
+  - *opencv_matlab_mex.cpp* is the actual C++-.mex demo function, which just
+    calls cv::GaussianBlur and does some type conversions
+  - *opencv_matlab_mex_demo.m* can be called to show a demo example
+
+  To put it in order, run the following in Matlab
+
+    build_opencv_matlab_mex
+    opencv_matlab_mex_demo
 
 ## 4. AUTHOR INFORMATION
 
