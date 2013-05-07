@@ -55,7 +55,7 @@
     calls cv::GaussianBlur and does some type conversions
   - *opencv_matlab_mex_demo.m* can be called to show a demo example
 
-  To put it in order, run the following in Matlab
+  To put it in order, run the following in Matlab:
 
     build_opencv_matlab_mex
     opencv_matlab_mex_demo
