@@ -67,8 +67,8 @@ To put it in order, run the following in Matlab:
 [Boris Schauerte](http://cvhci.anthropomatik.kit.edu/~bschauer/ "Boris Schauerte, Homepage")
 
 **NOTE** Please do not send me e-mails regarding problems with OpenCV, etc.
-  in general; I am really not the best person to answer such questions and
-  - in all honesty - I have too much other stuff to do, sorry.
+  in general; I am really not the best person to answer such questions and -
+  in all honesty - I have too much other stuff to do, sorry.
 
 ### 4.2 CODE HOSTING
 
