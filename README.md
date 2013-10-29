@@ -64,7 +64,8 @@ To put it in order, run the following in Matlab:
 
 ### 4.1 CONTACT
 
-[Boris Schauerte](http://cvhci.anthropomatik.kit.edu/~bschauer/ "Boris Schauerte, Homepage")
+Boris Schauerte  
+http://schauerte.me/
 
 **NOTE** Please do not send me e-mails regarding problems with OpenCV, etc.
   in general; I am really not the best person to answer such questions and -
